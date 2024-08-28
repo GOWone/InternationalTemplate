@@ -1,6 +1,6 @@
 ﻿namespace YaMoTemplate.StaticResource.Enum
 {
-    public enum ReaderType
+    public enum WorkModeType
     {
         /// <summary>
         /// 在线模式/Online Mode

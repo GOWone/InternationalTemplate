@@ -12,6 +12,8 @@ namespace InternationalTemplate.ViewModel
             TemplateController.SetDefaultConfig();
             TemplateController.SetConfig(config);
             TemplateController.SwitchTemplate(TemplateType.zh_CN);
+            TemplateConfiguration tem = new TemplateConfiguration();
+
         }
     }
 }

@@ -52,18 +52,12 @@
     <Compile Include="DataAccess\FileFactory\JsonFactory.cs" />
     <Compile Include="DataAccess\FileFactory\CsvFactory.cs" />
     <Compile Include="DataAccess\FileFactory\TxtFactory.cs" />
+    <Compile Include="Extension\Common.cs" />
     <Compile Include="Extension\ExtendedProperty.cs" />
     <Compile Include="Extension\TaskRequestEntity.cs" />
     <Compile Include="Extension\TaskResultEntity.cs" />
     <Compile Include="Generation\CreateRemoteLink.cs" />
     <Compile Include="Generation\CreateLocalFileLink.cs" />
-    <Compile Include="Helper\FileHelper\CsvHelper.cs" />
-    <Compile Include="Helper\FileHelper\ExcelHelper.cs" />
-    <Compile Include="Helper\FileHelper\JsonHelper.cs" />
-    <Compile Include="Helper\DbHelper\MySqlHelper.cs" />
-    <Compile Include="Helper\DbHelper\SqliteHelper.cs" />
-    <Compile Include="Helper\DbHelper\SqlServerHelper.cs" />
-    <Compile Include="Helper\FileHelper\TxtHelper.cs" />
     <Compile Include="Interface\Configuration\IConfiguration.cs" />
     <Compile Include="Interface\Factory\IDbFactory.cs" />
     <Compile Include="Interface\Factory\IFileFactory.cs" />
@@ -71,10 +65,9 @@
     <Compile Include="StaticResource\Constant\DbConstant.cs" />
     <Compile Include="StaticResource\Constant\FileConstant.cs" />
     <Compile Include="StaticResource\Enum\EncryptionType.cs" />
-    <Compile Include="StaticResource\Enum\ReaderType.cs" />
+    <Compile Include="StaticResource\Enum\WorkModeType.cs" />
     <Compile Include="StaticResource\Enum\StorageMediaType.cs" />
     <Compile Include="StaticResource\Enum\TemplateType.cs" />
-    <Compile Include="StaticResource\Enum\WriterType.cs" />
     <Compile Include="TemplateController.cs" />
   </ItemGroup>
   <ItemGroup>

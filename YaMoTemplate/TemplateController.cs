@@ -6,8 +6,21 @@ namespace YaMoTemplate
 {
     public class TemplateController
     {
-        #region Configuration
+        #region Field
+        /// <summary>
+        /// Configuration
+        /// </summary>
         public static IConfiguration _configuration;
+        #endregion
+
+        #region Ctor
+        public TemplateController()
+        {
+                
+        }
+        #endregion
+
+        #region Configuration
         /// <summary>
         /// Set Default Config
         /// </summary>
@@ -30,7 +43,7 @@ namespace YaMoTemplate
         /// <summary>
         /// Switch Template
         /// </summary>
-        /// <param name="type"></param>
+        /// <param name="type">Template Type</param>
         public static void SwitchTemplate(TemplateType type)
         {
             _configuration = new TemplateConfiguration();

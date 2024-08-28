@@ -21,6 +21,10 @@
         /// <summary>
         /// ECC
         /// </summary>
-        ECC
+        ECC,
+        /// <summary>
+        /// None
+        /// </summary>
+        None
     }
 }
