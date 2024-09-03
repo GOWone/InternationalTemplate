@@ -59,7 +59,6 @@ namespace YaMoTemplate.Configuration
             get { return _filePath; }
             set { _filePath = value; }
         }
-
         #endregion
 
         #region Ctor
